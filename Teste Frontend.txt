@@ -1,0 +1,28 @@
+1. Criar um formulário para inscrição em uma feira de desenvolvimento de software (modelo abaixo)
+
+2. O formulário deverá validar todos os campos antes de enviar
+
+3. Validar o campo e-mail para um e-mail válido
+
+4. Validar o campo CPF para um CPF válido
+
+5. Validar o campo data, para uma data válida, e este campo deve ter um date picker
+
+6. O campo outros, só deve ser habilitado para preenchimento caso o usuário escolha a opção outros no radio button.
+
+7. Ao clicar no botão Enviar, deverá fazer uma requisição ajax para a seguinte url:
+http://dev.innovareti.com.br/api/formPostContents
+
+Enviar na requisição um campo name, e um campo contents, com todo o conteúdo do formulário, 
+abaixo um exemplo
+
+name: 'nome candidato',
+content = {
+	'email' : 'candidato@teste.com',
+	'formacao' : 'superior completo'
+}
+
+
+8.       Caso a API retorne erros mostrar na tela para o usuário
+
+9.       Caso retorne sucesso, mostrar uma mensagem ao usuário que o cadastro foi feito com sucesso
