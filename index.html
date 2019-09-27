@@ -4,45 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script defer src="script/script.js"></script>
     <title>Feira de Desenvolvimento de Software </title>
 </head>
 <body>
 
-    <form action="">
-        <title>Inscrição: Feira de Desenvolvimento</title>
+    <nav>
+        <h3>Inscrição: Feira de Desenvolvimento</h3>
+    </nav>
 
-        <label for="">Nome</label>
-        <input type="text" >
-        <label for="">E-mail</label>
-        <input type="email" name="" id="">
-        <label for="">Formação</label>
-        <select name="" id="">
-            <option value=""></option>
-            <option value="">Bacharelado</option>
-            <option value="">Licenciatura</option>
-            <option value="">Tecnológico</option>
-            <option value="">Educação à Distância</option>
-        </select>
-        <label for="">CPF</label>
-        <input type="number" name="" id="">
-        <label for="">Data Nascimento</label>
-        <input type="date" name="" id="">
+    <form name="form_in" action="" method="POST">
+        
+        <div id="formcl1">
+            <label for="">Nome</label><br>
+            <input type="text" >
+        </div>
+        
+        <div id="formcl2">
+            <label for="">E-mail</label><br>
+            <input type="email" name="" id="">
+        </div>
+
+        <div id="formcl1">
+            <label for="">Formação</label><br>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="">Bacharelado</option>
+                <option value="">Licenciatura</option>
+                <option value="">Tecnológico</option>
+                <option value="">Educação à Distância</option>
+            </select>
+        </div>
+        
+        <div class="coluna2_linha1" id="formcl2">
+            <div>
+                <label for="">CPF</label><br>
+                <input type="number" name="" id="">
+            </div>
+
+            <div>
+                <label for="">Data Nascimento</label><br>
+                <input type="date" name="" id="">
+            </div>
+        </div>
+        
+        <div class="sobre_evento" id="formc1l2" >
+            <div>
+                <label for="">Como Soube do Evento?</label><br>
+            </div>
+            <div>
+                <input type="radio" name="tevent" id="cface">
+                <label for="cface">Facebook</label><br>
+                <input type="radio" name="tevent" id="cinsta">
+                <label for="cinsta">Instagram</label><br>
+                <input type="radio" name="tevent" id="cemail">
+                <label for="cemail">E-mail</label><br>
+                <input type="radio" name="tevent" id="coutros">
+                <label for="coutros">Outros</label><br>
+            </div>
+            <div>
+                <label for="">Outros? Descreva</label><br>
+                <input class="outros" type="text" for="coutros" disabled>
+            </div>
+            <div>
+                <input type="button" value="Enviar">
+            </div>
+        </div>
 
 
-        <label for="">Como Soube do Evento?</label>
-        <input type="radio" name="tevent" id="cface">
-        <label for="cface">Facebook</label>
-        <input type="radio" name="tevent" id="cinsta">
-        <label for="cinsta">Instagram</label>
-        <input type="radio" name="tevent" id="cemail">
-        <label for="cemail">E-mail</label>
-        <input type="radio" name="tevent" id="coutros">
-        <label for="coutros">Outros</label>
-        <label for="">Outros? Descreva</label>
-        <input type="text" for="coutros">
-        <input type="button" value="Enviar">
+
+
+
+
 
     </form>
     
