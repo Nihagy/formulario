@@ -9,26 +9,29 @@
     <title>Feira de Desenvolvimento de Software </title>
 </head>
 <body>
+    
+    <nav></nav>
 
-    <nav>
+    <header>
         <h3>Inscrição: Feira de Desenvolvimento</h3>
-    </nav>
+    </header>
 
     <form name="form_in" action="" method="POST">
-        
-        <div id="formcl1">
-            <label for="">Nome</label><br>
-            <input type="text" >
+            
+        <div id="form_cl1">
+            <label id="nome" for="">Nome</label><br>
+            <input id="ipt_boder" type="text" required>
         </div>
         
-        <div id="formcl2">
+        <div id="form_cl2">
             <label for="">E-mail</label><br>
-            <input type="email" name="" id="">
+            <input id="ipt_boder" type="email" name="" id="" required>
         </div>
 
-        <div id="formcl1">
+
+        <div id="form_cl1">
             <label for="">Formação</label><br>
-            <select name="" id="">
+            <select class="form_formacao" id="ipt_boder" name="formacao" height="50" required>
                 <option value=""></option>
                 <option value="">Bacharelado</option>
                 <option value="">Licenciatura</option>
@@ -37,19 +40,18 @@
             </select>
         </div>
         
-        <div class="coluna2_linha1" id="formcl2">
-            <div>
+        <div class="coluna2_linha1" id="form_cl2">
+            <div class="cpf_documento">
                 <label for="">CPF</label><br>
-                <input type="number" name="" id="">
+                <input id="ipt_boder" type="number" name="" id="" required>
             </div>
-
-            <div>
+            <div class="calendario">
                 <label for="">Data Nascimento</label><br>
-                <input type="date" name="" id="">
+                <input id="ipt_boder" class="" type="date" name="datanasc"  required>
             </div>
         </div>
         
-        <div class="sobre_evento" id="formc1l2" >
+        <div class="sobre_evento" id="form_c1l2" >
             <div>
                 <label for="">Como Soube do Evento?</label><br>
             </div>
@@ -65,18 +67,12 @@
             </div>
             <div>
                 <label for="">Outros? Descreva</label><br>
-                <input class="outros" type="text" for="coutros" disabled>
+                <input id="ipt_boder" class="outros" type="text" for="coutros" disabled>
             </div>
             <div>
-                <input type="button" value="Enviar">
+                <input id="btn_enviar" type="button" value="Enviar">
             </div>
         </div>
-
-
-
-
-
-
 
     </form>
     
