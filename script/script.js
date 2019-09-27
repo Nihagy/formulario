@@ -1,3 +1,6 @@
+
+// tentativa 1
+
 // let outros = document.querySelector(".inp_outros");
 // let ativar = document.querySelector(".camp_outros");
 // let selecionar = document.querySelector(".sobre_evento")
@@ -13,28 +16,21 @@
 // }
 
 
+// tentativa 2
+
+// var input= document.querySelector('.outra_opcao');
+// var radio= document.querySelector('.inp_outros');
 
 
-var input= document.querySelector('.outra_opcao');
-var radio= document.querySelector('.inp_outros');
-
-
-function ativaCampo() {
+// function ativaCampo() {
 
    
-    if (radio.checked == false)
-    {
-       input.disabled = disabled;
-    }
-    else if (radio.checked == true)
-    {
-       input.disabled = readonly;
-    }
-   }
-
-// function mostrarMenu(){
-
-//     nav.classList.toggle("visivel");
-//     menuHamburguer.classList.toggle("ativo");
+//     if (radio.checked == false)
+//     {
+//        input.disabled = disabled;
+//     }
+//     else if (radio.checked == true)
+//     {
+//        input.disabled = readonly;
+//     }
 // }
-

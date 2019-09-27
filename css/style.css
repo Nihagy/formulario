@@ -18,62 +18,65 @@ body{
     background-color: white;
 }
 
-#form_cl1{
+.form_cl1{
     grid-column: 1/3;
 }
 
-#form_cl1, #form_cl2 label{
+.form_cl1, .form_cl2 label{
     font-weight: bold;
 }
 
-#form_cl2{
+.form_cl2{
     grid-column: 3/5;
 }
 
-#form_c1l2 div{
+.form_c1l2 div{
     margin-bottom: 10px;
 }
 
-#form_cl2 input{
+.form_cl2 input{
     width: 97%;
+    outline: none;
 }
 
-#form_cl1 input, select{
+.form_cl1 input, select{
     width: 97%;
+    outline: none;
 }
 
-.coluna2_linha1 input{
+#coluna2_linha1 input{
     margin-right: 10px;
     grid-column: 1/4;
+    outline: none;
 }
 
-.coluna2_linha1{
+#coluna2_linha1{
     display: flex;
 }
 
-.coluna2_linha1 div{
+#coluna2_linha1 div{
     width: 50%;
 }
 
-#ipt_boder{
+.ipt_boder{
     border-radius: 5px;
     border-bottom: 2px solid;
     height: 25px;
     background-color: white;
 }
 
-.sobre_evento{
+#sobre_evento{
     grid-column: 1/3;
 }
 
-.sobre_evento .outra_opcao{
+#sobre_evento #outra_opcao{
     width: 97%;
 }
 
 
 
 
-div.calendario{
+div#calendario{
     width: 48%;
 }
 
@@ -113,7 +116,7 @@ label{
     color: #a1a1a2;
 }
 
-select#ipt_boder.form_formacao{
+select.ipt_boder#form_formacao{
     height: 30px
 }
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="script/script.js"></script>
+    <script defer src="script/script.js"></script>    
     <title>Feira de Desenvolvimento de Software </title>
 </head>
 <body>
@@ -18,20 +18,20 @@
 
     <form name="form_in" action="" method="POST">
             
-        <div id="form_cl1">
+        <div class="form_cl1">
             <label id="nome" for="">Nome</label><br>
-            <input id="ipt_boder" type="text" required>
+            <input class="ipt_boder" type="text" required>
         </div>
         
-        <div id="form_cl2">
+        <div class="form_cl2">
             <label for="">E-mail</label><br>
-            <input id="ipt_boder" type="email" name="" id="" required>
+            <input class="ipt_boder" type="email" name="" id="" required>
         </div>
 
 
-        <div id="form_cl1">
+        <div class="form_cl1">
             <label for="">Formação</label><br>
-            <select class="form_formacao" id="ipt_boder" name="formacao" height="50" required>
+            <select id="form_formacao" class="ipt_boder" name="formacao" height="50" required>
                 <option value=""></option>
                 <option value="">Bacharelado</option>
                 <option value="">Licenciatura</option>
@@ -40,18 +40,18 @@
             </select>
         </div>
         
-        <div class="coluna2_linha1" id="form_cl2">
+        <div id="coluna2_linha1" class="form_cl2">
             <div class="cpf_documento">
                 <label for="">CPF</label><br>
-                <input class="cpf" id="ipt_boder" type="text" name="" id="" required>
+                <input id="cpf" class="ipt_boder" type="text" name="cpf" required>
             </div>
-            <div class="calendario">
+            <div id="calendario">
                 <label for="">Data Nascimento</label><br>
-                <input id="ipt_boder" class="" type="date" name="datanasc" >
+                <input class="ipt_boder" type="date" name="calendario" >
             </div>
         </div>
         
-        <div class="sobre_evento" id="form_c1l2" >
+        <div id="sobre_evento" class="form_c1l2" >
             <div>
                 <label for="">Como Soube do Evento?</label><br>
             </div>
@@ -63,12 +63,12 @@
                 <label for="cinsta">Instagram</label><br>
                 <input type="radio" name="tevent" id="cemail">
                 <label for="cemail">E-mail</label><br>
-                <input class="inp_outros" type="radio" name="tevent" id="coutros" value="sele_outros">
+                <input type="radio" name="tevent" id="coutros" >
                 <label for="coutros">Outros</label><br>
             </div>
-            <div class="camp_outros" >
+            <div id="camp_outros" >
                 <label for="">Outros? Descreva</label><br>
-                <input class="outra_opcao" id="ipt_boder" class="outros" type="text" for="coutros"  disabled>
+                <input id="outra_opcao" class="ipt_boder"type="text" for="coutros"  disabled>
             </div>
             <div>
                 <input id="btn_enviar" type="button" value="Enviar" >
