@@ -43,11 +43,11 @@
         <div class="coluna2_linha1" id="form_cl2">
             <div class="cpf_documento">
                 <label for="">CPF</label><br>
-                <input id="ipt_boder" type="number" name="" id="" required>
+                <input class="cpf" id="ipt_boder" type="text" name="" id="" required>
             </div>
             <div class="calendario">
                 <label for="">Data Nascimento</label><br>
-                <input id="ipt_boder" class="" type="date" name="datanasc"  required>
+                <input id="ipt_boder" class="" type="date" name="datanasc" >
             </div>
         </div>
         
@@ -55,6 +55,7 @@
             <div>
                 <label for="">Como Soube do Evento?</label><br>
             </div>
+
             <div>
                 <input type="radio" name="tevent" id="cface">
                 <label for="cface">Facebook</label><br>
@@ -62,15 +63,15 @@
                 <label for="cinsta">Instagram</label><br>
                 <input type="radio" name="tevent" id="cemail">
                 <label for="cemail">E-mail</label><br>
-                <input type="radio" name="tevent" id="coutros">
+                <input class="inp_outros" type="radio" name="tevent" id="coutros" value="sele_outros">
                 <label for="coutros">Outros</label><br>
             </div>
-            <div>
+            <div class="camp_outros" >
                 <label for="">Outros? Descreva</label><br>
-                <input id="ipt_boder" class="outros" type="text" for="coutros" disabled>
+                <input class="outra_opcao" id="ipt_boder" class="outros" type="text" for="coutros"  disabled>
             </div>
             <div>
-                <input id="btn_enviar" type="button" value="Enviar">
+                <input id="btn_enviar" type="button" value="Enviar" >
             </div>
         </div>
 
